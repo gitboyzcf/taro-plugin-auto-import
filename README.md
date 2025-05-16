@@ -16,8 +16,21 @@ npm i taro-plugin-vue-components -D
 
 ```js
 const config = {
-  plugins: [
-    ["taro-plugin-vue-components"]
-  ]
+  plugins: [[
+    'taro-plugin-auto-import',
+    {
+      imports: [
+        'vue',
+        'pinia',
+        // '@tarojs/taro', // 后续加入
+      ],
+
+      eslintrc: {
+        enabled: true, // Default `false`
+        filepath: './.eslintrc-auto-import.json', // Default `./.eslintrc-auto-import.json`
+        globalsPropValue: true // Default `true`, (true | false | 'readonly' | 'readable' | 'writable' | 'writeable')
+      }
+    },
+  ]],
 }
 ```
