@@ -1,0 +1,51 @@
+{
+  "name": "taro-plugin-auto-import",
+  "version": "1.0.0",
+  "description": "Taro + Vue3 自动导入多个API的插件，支持TypeScript",
+  "keywords": [
+    "Taro",
+    "Plugin",
+    "Vue3",
+    "auto-import",
+    "auto",
+    "import"
+  ],
+  "author": "boyzcf",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "index.js",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "tsc -w"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "@tarojs/service": "^3.6.37",
+    "webpack-chain": "^6.5.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-replace": "^6.0.2",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^18.13.0",
+    "rollup": "^4.40.2",
+    "typescript": "^5.8.3",
+    "unplugin-auto-import": "^19.2.0",
+    "unplugin-vue-components": "^28.5.0"
+  },
+  "packageManager": "pnpm@10.1.0+sha1.ab7948c89104fdd3fc88b5b391fa4b73fd800631"
+}
