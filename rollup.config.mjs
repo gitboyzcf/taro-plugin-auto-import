@@ -10,7 +10,7 @@ export default [
     output: {
       dir: "dist",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false,
     },
     plugins: [
       replace({
@@ -20,7 +20,7 @@ export default [
       commonjs({ include: ["node_modules/**"] }),
       typescript({
         tsconfig: "./tsconfig.json",
-        sourceMap: true,
+        sourceMap: false,
         exclude: "./src/index.ts",
       }),
       json(),
@@ -31,14 +31,14 @@ export default [
     output: {
       dir: "dist",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false,
       esModule: true,
       exports: "named",
     },
     plugins: [
       typescript({
         tsconfig: "./tsconfig.json",
-        sourceMap: true,
+        sourceMap: false,
         exclude: "./src/bundle.ts",
       }),
     ],
@@ -49,7 +49,7 @@ export default [
     output: {
       dir: "dist/unplugin/dist/webpack/loaders",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false,
       esModule: true,
       exports: "named",
     },
@@ -60,7 +60,7 @@ export default [
     output: {
       dir: "dist/unplugin/dist/webpack/loaders",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false,
       esModule: true,
       exports: "named",
     },
@@ -71,7 +71,7 @@ export default [
     output: {
       dir: "dist/unplugin/dist/rspack/loaders",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false,
       esModule: true,
       exports: "named",
     },
@@ -82,7 +82,7 @@ export default [
     output: {
       dir: "dist/unplugin/dist/rspack/loaders",
       format: "cjs",
-      sourcemap: true,
+      sourcemap: false,
       esModule: true,
       exports: "named",
     },

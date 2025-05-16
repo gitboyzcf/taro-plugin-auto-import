@@ -169,4 +169,3 @@ async function load(source, map) {
 }
 
 exports.default = load;
-//# sourceMappingURL=load.js.map

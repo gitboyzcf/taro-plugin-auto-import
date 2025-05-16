@@ -153,4 +153,3 @@ function walk(ast, { enter, leave }) {
 }
 
 exports.walk = walk;
-//# sourceMappingURL=src-AW5OMTAB-CvLgUuYh.js.map

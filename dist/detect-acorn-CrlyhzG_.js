@@ -475,4 +475,3 @@ function createVirtualImportsAcronWalker(importMap, virtualImports = []) {
 exports.createVirtualImportsAcronWalker = createVirtualImportsAcronWalker;
 exports.detectImportsAcorn = detectImportsAcorn;
 exports.traveseScopes = traveseScopes;
-//# sourceMappingURL=detect-acorn-CrlyhzG_.js.map

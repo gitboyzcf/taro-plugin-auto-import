@@ -1,6 +1,6 @@
 {
   "name": "taro-plugin-auto-import",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Taro + Vue3 自动导入多个API的插件，支持TypeScript",
   "keywords": [
     "Taro",
@@ -11,7 +11,7 @@
     "import"
   ],
   "author": "boyzcf",
-  "homepage": "",
+  "homepage": "https://github.com/gitboyzcf/taro-plugin-auto-import?tab=readme-ov-file#taro-plugin-vue-components",
   "license": "MIT",
   "main": "index.js",
   "typings": "dist/types/index.d.ts",
@@ -22,14 +22,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/gitboyzcf/taro-plugin-auto-import.git"
   },
   "scripts": {
     "build": "rollup -c",
     "dev": "tsc -w"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/gitboyzcf/taro-plugin-auto-import/issues"
   },
   "dependencies": {
     "@tarojs/service": "^3.6.37",

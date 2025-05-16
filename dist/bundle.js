@@ -18940,7 +18940,7 @@ function getRolldownPlugin(factory) {
 //#region node_modules/.pnpm/tsdown@0.6.10_publint@0.3.5_typescript@5.8.3_unplugin-unused@0.4.1/node_modules/tsdown/esm-shims.js
 const getFilename = () => node_url.fileURLToPath((typeof document === 'undefined' ? require('u' + 'rl').pathToFileURL(__filename).href : (_documentCurrentScript && _documentCurrentScript.tagName.toUpperCase() === 'SCRIPT' && _documentCurrentScript.src || new URL('bundle.js', document.baseURI).href)));
 const getDirname = () => path$1.dirname(getFilename());
-const __dirname$1 = /* @__PURE__ */ getDirname() + '/unplugin/dist';
+const __dirname$1 = /* @__PURE__ */ getDirname()  + '/unplugin/dist';
 
 //#endregion
 //#region src/rspack/index.ts
@@ -30437,4 +30437,3 @@ exports.join = join;
 exports.normalize = normalize;
 exports.parse = parse$1;
 exports.resolve = resolve$3;
-//# sourceMappingURL=bundle.js.map

@@ -28,4 +28,3 @@ var index = (ctx, pluginOpts) => {
 };
 
 exports.default = index;
-//# sourceMappingURL=index.js.map

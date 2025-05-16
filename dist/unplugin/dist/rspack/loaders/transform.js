@@ -184,4 +184,3 @@ async function transform(source, map) {
 }
 
 exports.default = transform;
-//# sourceMappingURL=transform.js.map
